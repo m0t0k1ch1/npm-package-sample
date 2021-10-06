@@ -1,0 +1,21 @@
+{
+  "name": "npm-package-sample",
+  "version": "1.0.0",
+  "description": "a sample npm package",
+  "license": "MIT",
+  "author": "m0t0k1ch1",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/m0t0k1ch1/npm-package-sample.git"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
